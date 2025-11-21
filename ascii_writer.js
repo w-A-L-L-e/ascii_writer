@@ -21,7 +21,7 @@ async function main() {
   if (process.argv.length != 4) {
     console.log("\n");
     await write_ascii("Nancyj-Underlined", "Ascii Writer");
-    console.log("USAGE: node ascii_writer.js <FONT> <YOUR TEXT>");
+    console.log("USAGE: node ascii_writer.js <FONT> <YOUR TEXT>\n");
     console.log(
       "   Example fonts: Kban, Georgi16, Graffiti, Terrace, DOS Rebel. ",
     );

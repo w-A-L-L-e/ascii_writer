@@ -21,6 +21,7 @@ d8'    88                             88   88   88               88
 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 USAGE: node ascii_writer.js <FONT> <YOUR TEXT>
+
    Example fonts: Kban, Georgi16, Graffiti, Terrace, DOS Rebel.
    (more fonts in ./node_modules/figlet/fonts/)
 
