@@ -50,6 +50,34 @@ However the code didn't compile on modern Qt framework anymore and I didn't find
 
 Then did some googling and stumbled on an exellent figlet library
 which pretty much had all the features I needed.
+
 This little project just wraps it in a simple commandline program.
 I had this on my old laptop and a few days ago someone asked me how I did some logo on a small webtool
-I made in 2021. So on a late friday night decided to look it up and just post it on github here for others to enjoy.
+I made in 2021. So on a late friday night I decided to look it up and just
+post it on github here for others to use and enjoy.
+
+### References
+
+The figlet library with all the ascii and ansi fonts:
+https://github.com/patorjk/figlet.js
+
+To render these in browser you could use:
+https://github.com/drudru/ansi_up
+
+### Linux cli without node
+
+Just wanted to add this for completeness. On linux figlet was around ages ago.
+So you can also just do the following:
+
+```
+sudo apt install figlet
+```
+
+And then even use the same fonts from figlet.js package like so:
+
+```
+figlet -f node_modules/figlet/fonts/Graffiti.flf "Hello world"
+```
+
+Nowadays on windows 11 you probably also can just use this using WSL.
+Making this little tool obsolete apart from all those nice included fonts ;)

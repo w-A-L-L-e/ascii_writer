@@ -26,6 +26,7 @@ async function main() {
       "   Example fonts: Kban, Georgi16, Graffiti, Terrace, DOS Rebel. ",
     );
     console.log("   (more fonts in ./node_modules/figlet/fonts/)\n");
+    // console.log(figlet.fontsSync());
     return;
   }
 
