@@ -48,21 +48,24 @@ https://walter.schreppers.com/page?content=ansied
 
 However the code didn't compile on modern Qt framework anymore and I didn't find the time to fix it.
 
-Then did some googling and stumbled on an exellent figlet library
+Then did some googling and stumbled on an exellent figlet tools and library
 which pretty much had all the features I needed.
 
-This little project just wraps it in a simple commandline program.
+This little project just wraps it in a simple commandline program using nodejs.
 I had this on my old laptop and a few days ago someone asked me how I did some logo on a small webtool
 I made in 2021. So on a late friday night I decided to look it up and just
 post it on github here for others to use and enjoy.
 
 ### References
 
-The figlet library with all the ascii and ansi fonts:
+The figlet js library with all the ascii and ansi fonts included:
 https://github.com/patorjk/figlet.js
 
 To render these in browser you could use:
 https://github.com/drudru/ansi_up
+
+The original figlet:
+https://www.figlet.org
 
 ### Linux cli without node
 
@@ -79,5 +82,5 @@ And then even use the same fonts from figlet.js package like so:
 figlet -f node_modules/figlet/fonts/Graffiti.flf "Hello world"
 ```
 
-Nowadays on windows 11 you probably also can just use this using WSL.
-Making this little tool obsolete apart from all those nice included fonts ;)
+More fonts can be downloaded here:
+https://www.figlet.org/cgi-bin/fontdb.cgi
